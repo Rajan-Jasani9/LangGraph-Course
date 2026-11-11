@@ -1,6 +1,6 @@
 # EP 01 — Your First Working Graph
 
-Code for **AI - 31: LangGraph Lecture 1 — Your First Working Graph** in the Engineering Systems LangGraph series.
+Code for **LangGraph From Scratch || Your First Working Graph (Ep 01)** in the Engineering Systems LangGraph series. [Watch on YouTube](https://youtu.be/Xjvp9MvAPcM).
 
 You build a small workflow that takes a name, cleans it, and produces a greeting. The problem is deliberately tiny so you can watch how information moves between nodes:
 
@@ -113,4 +113,4 @@ Expect `Hello, Mira!`, then `Hello, friend!` (the fallback for a blank name), th
 2. Change the greeting prefix from `Hello` to `Welcome`, then update the expected greetings in `tests/test_graph.py`.
 3. Explain why `raw_name` is still in the final result, even though `clean_name` returned only `name`.
 
-**Next:** [EP 02](../) adds conditional edges, so the graph can choose its next step from the state.
+**Next:** [EP 02](../langgraph-ep-02/) adds conditional edges, so the graph can choose its next step from the state.

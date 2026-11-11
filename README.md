@@ -9,7 +9,9 @@ Each episode has its own folder. Every folder is self-contained, with its own co
 | Episode | Video | Folder | What you build |
 | --- | --- | --- | --- |
 | 01 — Your First Working Graph | [Watch on YouTube](https://youtu.be/Xjvp9MvAPcM) | [`langgraph-ep-01/`](langgraph-ep-01/) | A two-node graph that cleans a name and greets it. It covers state, nodes, edges, partial updates, `compile()` and `invoke()`. |
-| 02 — Conditional Edges | coming next | coming next | A graph that chooses its next step from the state. |
+| 02 — Conditional Edges | [Watch on Youtube](https://youtu.be/7aaN42tgr5U) | [`langgraph-ep-02/`](langgraph-ep-02/) | A support-ticket router that picks its next node from the state. It covers conditional edges, routing functions, path maps, and handling an unmapped route with a fallback. |
+| 03 — Loops and Cycles | coming soon | [`langgraph-ep-03/`](langgraph-ep-03/) | A retry workflow that goes back to a node it already ran. It covers cycles, retry limits, the recursion limit, and escalating when the retries run out. |
+| 04 — Actual Tools | coming next | coming next | Putting state, nodes, edges, routing and cycles to work with actual tools. |
 
 ## Repository layout
 
@@ -24,9 +26,10 @@ Langgraph/
     main.py
     requirements.txt     # the direct dependency the episode was tested with
     requirements-lock.txt
+  langgraph-ep-02/       # same layout, plus experiments/ for the failure shown in the video
 ```
 
-New episodes follow the same pattern: `langgraph-ep-02/`, `langgraph-ep-03/`, and so on.
+New episodes follow the same pattern: `langgraph-ep-04/`, `langgraph-ep-05/`, and so on.
 
 ## Running an episode
 
