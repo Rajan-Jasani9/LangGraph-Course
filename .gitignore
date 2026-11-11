@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Each episode keeps its own virtual environment
+.venv/
+venv/
+
+# Local secrets (later episodes may use model API keys)
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
