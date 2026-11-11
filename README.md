@@ -6,10 +6,10 @@ Each episode has its own folder. Every folder is self-contained, with its own co
 
 ## Episodes
 
-| Episode | Folder | What you build |
-| --- | --- | --- |
-| 01 — Your First Working Graph | [`langgraph-ep-01/`](langgraph-ep-01/) | A two-node graph that cleans a name and greets it. It covers state, nodes, edges, partial updates, `compile()` and `invoke()`. |
-| 02 — Conditional Edges | coming next | A graph that chooses its next step from the state. |
+| Episode | Video | Folder | What you build |
+| --- | --- | --- | --- |
+| 01 — Your First Working Graph | [Watch on YouTube](https://youtu.be/Xjvp9MvAPcM) | [`langgraph-ep-01/`](langgraph-ep-01/) | A two-node graph that cleans a name and greets it. It covers state, nodes, edges, partial updates, `compile()` and `invoke()`. |
+| 02 — Conditional Edges | coming next | coming next | A graph that chooses its next step from the state. |
 
 ## Repository layout
 
