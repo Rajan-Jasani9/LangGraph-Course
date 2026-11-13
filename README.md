@@ -11,7 +11,10 @@ Each episode has its own folder. Every folder is self-contained, with its own co
 | 01 — Your First Working Graph | [Watch on YouTube](https://youtu.be/Xjvp9MvAPcM) | [`langgraph-ep-01/`](langgraph-ep-01/) | A two-node graph that cleans a name and greets it. It covers state, nodes, edges, partial updates, `compile()` and `invoke()`. |
 | 02 — Conditional Edges | [Watch on Youtube](https://youtu.be/7aaN42tgr5U) | [`langgraph-ep-02/`](langgraph-ep-02/) | A support-ticket router that picks its next node from the state. It covers conditional edges, routing functions, path maps, and handling an unmapped route with a fallback. |
 | 03 — Loops and Cycles | coming soon | [`langgraph-ep-03/`](langgraph-ep-03/) | A retry workflow that goes back to a node it already ran. It covers cycles, retry limits, the recursion limit, and escalating when the retries run out. |
-| 04 — Actual Tools | coming next | coming next | Putting state, nodes, edges, routing and cycles to work with actual tools. |
+| 04 — Tool Calling | in production | [`langgraph-ep-04/`](langgraph-ep-04/) | A read-only ticket assistant using ChatGroq, MessagesState, ToolNode and tools_condition. Includes live CLI commands, explicit offline fixtures, tests, and a second-tool exercise. |
+| 05 — Conversation Memory | in production | [`langgraph-ep-05/`](langgraph-ep-05/) | Thread-scoped checkpoints, state inspection, and SQLite recovery after a process restart. |
+| 06 — Long-Term Memory | in production | [`langgraph-ep-06/`](langgraph-ep-06/) | User namespaces, ToolRuntime, saved preferences and explicit retrieval across conversations. |
+| 07 — Human in the Loop | in production | [`langgraph-ep-07/`](langgraph-ep-07/) | Pause before a local ticket-priority write, inspect the proposal, and resume with approval or rejection. |
 
 ## Repository layout
 
